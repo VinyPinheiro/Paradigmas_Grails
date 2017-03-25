@@ -9,5 +9,6 @@ class Car {
 	static belongsTo = [service : carWash.Service]
 
     static constraints = {
+    	year max: (new Date()).getYear()
     }
 }

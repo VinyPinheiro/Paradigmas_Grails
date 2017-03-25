@@ -7,7 +7,7 @@ class Service {
 	Date start
 	Date expected
 
-	static belongsTo = [employee : people.Employee]
+	static belongsTo = people.Employee
 	static hasOne = [car : carWash.Car]
 	static hasMany = [material : carWash.Material]
 

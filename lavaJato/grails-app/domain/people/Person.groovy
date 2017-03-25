@@ -2,11 +2,12 @@ package people
 
 class Person {
 
-	Integer cpf
+	String cpf
 	String nome
 	String telefone
 
     static constraints = {
+    	cpf unique:true
     }
 
     static mapping = {
