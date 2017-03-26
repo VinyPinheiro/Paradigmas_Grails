@@ -1,4 +1,4 @@
-# Lava a Jato em Grails
+# Sistema de Lava a Jato - Grails
 
 No projeto em questão foi utilizado o Paradigma Orientado a Convenções sobre Configuração para criar um sistema responsável por auxiliar a administração de um Lava a Jato.
 
