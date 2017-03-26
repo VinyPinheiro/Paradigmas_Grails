@@ -1,6 +1,6 @@
 package people
 
-class Person {
+abstract class Person {
 
 	Integer cpf
 	String nome
