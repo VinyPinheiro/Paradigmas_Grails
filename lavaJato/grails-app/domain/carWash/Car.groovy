@@ -6,6 +6,8 @@ class Car {
 	String board
 	Integer year
 
+	static belongsTo = [service:Service]
+
     static constraints = {
     	year max: (new Date()).getYear()
     }

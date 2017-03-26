@@ -8,7 +8,8 @@ class Employee extends Person{
 	LocalTime startOfWork
 	LocalTime endOfWork
 
-	static hasMany = [service : carWash.Service]
+	static hasMany = [service : carWash.Service]	
+	static hasOne = [service : carWash.Car]
 
 
     static constraints = {
