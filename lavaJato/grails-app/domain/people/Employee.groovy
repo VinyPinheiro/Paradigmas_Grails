@@ -7,10 +7,10 @@ class Employee extends Person{
 	Date haringDate
 	LocalTime startOfWork
 	LocalTime endOfWork
-	carWash.Service	service;
+
+	static hasMany = [service : carWash.Service]
 
 
     static constraints = {
-    	service nullable:true
     }
 }
