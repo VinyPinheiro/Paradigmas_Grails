@@ -97,6 +97,10 @@ img {
     color: #4D8618;
 }
 
+.footer p{
+    font-size: 1.5em;
+}
+
 .spinner {
     background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
     height: 16px;
@@ -561,7 +565,7 @@ a.skip {
 }
 
 .grails-logo-container {
-    background:#79b94c no-repeat 50% 30%;
+    background-image: url(../images/skin/carro_java_jato.jpg);
     margin-bottom: 20px;
     color: white;
     height:300px;
@@ -571,4 +575,18 @@ a.skip {
 img.grails-logo {
     height:340px;
     margin-top:-10px;
+}
+
+.servicos{
+    margin-bottom: 10px;
+}
+
+.servicos h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.servicos-container{
+    margin-bottom: 20px;
 }
