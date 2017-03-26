@@ -1,10 +1,12 @@
 package people
 
+import org.joda.time.*
+
 class Employee extends Person{
 
 	Date haringDate
-	Date startOfWork
-	Date endOfWork
+	LocalTime startOfWork
+	LocalTime endOfWork
 	carWash.Service	service;
 
 

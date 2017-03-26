@@ -1,11 +1,13 @@
 package carWash
 
+import org.joda.time.*
+
 class Service {
 
 	Float price
 	String type
-	Date start
-	Date expected
+	LocalTime start
+	LocalTime expected
 
 	static belongsTo = people.Employee
 	static hasOne = [car : carWash.Car]
