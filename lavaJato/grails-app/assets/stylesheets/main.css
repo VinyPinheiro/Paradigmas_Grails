@@ -174,7 +174,7 @@ img {
 }
 
 .nav a.create {
-    background-image: url(../images/skin/database_add.png);
+    background-image: url(../images/new-car.png);
 }
 
 .nav li.dropdown.open ul.dropdown-menu {
@@ -589,4 +589,8 @@ img.grails-logo {
 
 .servicos-container{
     margin-bottom: 20px;
+}
+
+#list-car{
+    min-height: 550px;
 }
