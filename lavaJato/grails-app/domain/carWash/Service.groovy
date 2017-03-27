@@ -8,6 +8,8 @@ class Service {
 	String type
 	LocalTime start
 	LocalTime expected
+	carWash.Car car
+	people.Employee employee
 
 	static hasMany = [material : carWash.Material]
 

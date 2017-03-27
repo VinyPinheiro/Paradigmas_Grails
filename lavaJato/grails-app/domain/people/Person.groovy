@@ -13,4 +13,8 @@ abstract class Person {
     static mapping = {
     	tablePerHierarchy false
 	}
+
+    String toString(){
+    	return nome
+    }
 }
