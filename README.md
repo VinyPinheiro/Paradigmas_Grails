@@ -14,6 +14,6 @@ Execute o script DataBaseScript.sql na pasta raiz da aplicação.
 Usando o terminal, navegue até a pasta de origem da aplicação, intitulada "lavaJato", e execute os seguintes comandos:
 
 	$ grails run-app
-	$ ./gradlew boot
+	$ ./gradlew bootRun
 
 Após a plataforma configurar e rodar a aplicação, será disponibilizado um link (ex.: http://localhost:8080) ao final do processo. Abra-o em algum navegador para visualizar a aplicação.
