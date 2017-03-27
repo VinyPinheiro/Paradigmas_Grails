@@ -10,9 +10,10 @@ class Car {
     static constraints = {
     	year max: (Calendar.getInstance().get(Calendar.YEAR))
     	year min: 0
+    	board unique:true
     }
 
     String toString(){
-    	return this.id
+    	return this.id + " - " + this.board
     }
 }
