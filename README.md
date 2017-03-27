@@ -9,8 +9,10 @@ No projeto em questão foi utilizado o Paradigma Orientado a Convenções sobre 
 - Grails Version: 3.1.1
 - JVM Version: 1.8.0_73
 	
-Usando o terminal, navegue até a pasta origem do projeto e execute o seguinte comando:
+Execute o script DataBaseScript.sql na pasta raiz da aplicação.
+
+Usando o terminal, navegue até a pasta de origem da aplicação, intitulada "lavaJato", e execute o seguinte comando:
 
 	$ grails run-app
 
-Após a plataforma configurar e rodar a aplicação, será disponibilizado um link (ex.: http://localhost:8080), ao final do processo. Abra-o em algum navegador para visualizar a aplicação.
+Após a plataforma configurar e rodar a aplicação, será disponibilizado um link (ex.: http://localhost:8080) ao final do processo. Abra-o em algum navegador para visualizar a aplicação.
